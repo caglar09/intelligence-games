@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFlip, EffectCoverflow, EffectCube } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -13,18 +13,23 @@ SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 
 function LandingPrices() {
+    const [slidesPerView, setSlidesPerView] = useState(3);
+    window.addEventListener('resize', (ev) => {
+        console.log(window.innerWidth)
+        const width = window.innerWidth;
+        if (width < 1024 && width >= 768)
+            setSlidesPerView(2)
+        else if (width < 768)
+            setSlidesPerView(1)
+        else
+            setSlidesPerView(3)
+    })
     return (
         <Swiper
             effect="slide"
-            spaceBetween={20}
-            slidesPerView={3}
-            // navigation
-            pagination={{ type: 'bullets' }}
-            className="section-content py-md-5 py-lg-5 py-xl-5"
-
-            scrollbar={{ draggable: true, }}
-        // onSwiper={(swiper) => console.log(swiper)}
-        // onSlideChange={() => console.log('slide change')}
+            spaceBetween={10}
+            slidesPerView={slidesPerView}
+            className="section-content py-md-5 py-lg-5"
         >
 
             {pricingPackages.map((pricePackage, index) => {

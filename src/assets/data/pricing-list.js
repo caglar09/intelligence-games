@@ -16,7 +16,8 @@ const pricingPackages = [
             "Yarışmalara ve etkinliklere katılma"
         ],
         price: 35
-    },{
+    },
+    {
         title: "Altın Plan",
         fetures: [
             "Seçeceğiniz 3 adet zeka oyununa sınırsız erişim",
@@ -25,8 +26,6 @@ const pricingPackages = [
         ],
         price: 50
     }
-    
-
 ]
 
 export default pricingPackages;

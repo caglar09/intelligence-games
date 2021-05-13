@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Container, Button, Form, FormGroup, Label, Input, FormText, Row, Col } from 'reactstrap';
+import { FaRegCopyright } from 'react-icons/fa'
 import { datas } from '../../assets/data/data';
 import LandingPageHeader from '../../components/landing-header';
 import LangingPageCarousel from '../../components/landing-page-carousel';
@@ -114,6 +115,10 @@ function LandingPage() {
         </section>
         <footer>
             <LandingFooter />
+            <div className="container-fluid d-flex flex-row justify-content-center align-items-center bg-dark-purple" id="sub-footer" >
+                {new Date().getFullYear().toString()} <FaRegCopyright className="mr-1 ml-1" /> Tüm hakları saklıdır.
+            </div>
+
         </footer>
     </>
     );
