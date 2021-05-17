@@ -17,6 +17,12 @@ $priceBoxMinHeight: 340px;
 }
 
 *,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*,
 body a,
 span {
     font-family: "Arimo", sans-serif !important;
@@ -86,6 +92,12 @@ img {
     }
 }
 
+.tablet-hide {
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
+
 // #region landing-page navbar
 .navbar {
     padding-top: 30px !important;
@@ -104,22 +116,84 @@ img {
         }
     }
 
+    .seperator {
+        width: 1px;
+        height: 26px;
+        /* padding: 15px 10px; */
+        margin: 0 5px;
+        border-radius: 0.5px;
+        background-color: #eceaf0;
+    }
+
+    .auth-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: 1024px) and (min-width: 767px) {
+            .nav-link {
+                text-align: center;
+            }
+        }
+    }
+
     .nav-link {
         color: $black-color07;
         font-weight: bold;
         font-size: 15px;
         transition: color $color-animation-time ease-in-out;
-        /* letter-spacing: 1px; */
+        position: relative;
+
+        &.sign-up {
+            padding: 8px 22px;
+            background-color: $purple-color;
+            border-radius: 5px;
+            color: $white-color;
+            margin-left: 10px;
+            &:hover {
+                background-color: $purple-dark-color !important;
+                color: $white-color !important;
+            }
+            &:hover:before {
+                display: none !important;
+            }
+        }
+
+        &.sign-in {
+            color: $purple-color !important;
+            transition: color $color-animation-time ease-in-out;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: $purple-color !important;
+            height: 3px;
+            transition: 0.3s;
+            margin: auto;
+        }
+
+        &:hover:before {
+            width: 100%;
+        }
+
+        &:hover {
+            color: $purple-color !important;
+        }
     }
-    .sign-in.nav-link {
-        color: $purple-color !important;
-        transition: color $color-animation-time ease-in-out;
-    }
+
     &.fixed-top {
         background-color: $purple-color !important;
-        transition: all 0.1s ease-in !important;
+        padding-top: 25px !important;
+        padding-bottom: 25px !important;
+        transition: all 0.2s ease-in !important;
 
-        .sign-in.nav-link,
+        .nav-link.sign-in,
         .nav-link,
         .color-purple {
             color: $white-color !important;
@@ -255,6 +329,7 @@ img {
 
             &:hover {
                 border: 2px solid $purple-color;
+                transition: all 0.2s ease-in-out;
             }
 
             .title {
@@ -267,7 +342,7 @@ img {
 
                 span {
                     background-color: $purple-color;
-                    color: $white-color-opacity8;
+                    color: $white-color;
                     padding: 3px $padding-20;
                     margin-top: -$padding-20;
                     margin-bottom: $padding-20;
@@ -322,3 +397,140 @@ img {
     }
 }
 // #endregion landing-page #pricing
+
+// #region auth-screen
+.auth {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+    .full-height {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .form-content {
+        .login-form {
+            width: 360px;
+
+            @media screen and (max-width: 425px) {
+                width: 320px;
+            }
+
+            @media screen and (max-width: 375px) {
+                width: 290px;
+            }
+
+            @media screen and (max-width: 320px) {
+                width: 240px;
+            }
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+
+            h1 {
+                text-align: center;
+            }
+            .logo {
+                width: 120px;
+                margin-bottom: 20px;
+            }
+
+            .description {
+                font-size: 14px;
+                font-style: italic;
+                text-align: center;
+            }
+        }
+
+        .form-control {
+            height: 50px;
+            font-size: 14px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: -0.09px;
+            color: #1e1e25;
+            border-radius: 0px;
+            box-shadow: 0 2px 6px 0 #e6e6e6;
+            border: 1px solid #e6e6e6;
+            background-color: #fff;
+            padding: 16px 20px;
+        }
+
+        .purple-button {
+            width: 100%;
+            background-color: $purple-color;
+            color: $white-color;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .right-top-button {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-decoration: none;
+            color: $purple-color;
+
+            @media screen and (max-width: 768px) and (min-width: 768px) {
+                right: 0px;
+            }
+        }
+
+        .left-top-button {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            text-decoration: none;
+            color: $purple-color;
+
+            @media screen and (max-width: 768px) and (min-width: 768px) {
+                left: 0px;
+            }
+        }
+    }
+
+    .form-content-right {
+        background-color: $purple-color;
+        color: $white-color;
+
+        .form-content-right-image {
+            width: 40%;
+            height: auto;
+        }
+
+        .text-container {
+            text-align: center;
+            margin-top: 40px;
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+// #endregion auth-screen

@@ -7,7 +7,7 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Container
+    Container    
 } from 'reactstrap';
 import $ from 'jquery'
 
@@ -60,10 +60,19 @@ const LandingPageHeader = (props) => {
                         <NavItem>
                             <NavLink href="#contact">İletişim</NavLink>
                         </NavItem>
+                        <NavItem className="d-flex flex-row align-items-center" >
+                            <li className="seperator d-none d-lg-block">
+                                &nbsp;
+                            </li>
+                        </NavItem>
+
                         {!isSigned ?
-                            <NavItem>
-                                <NavLink className="sign-in" href="#about">Giriş Yap</NavLink>
-                            </NavItem> :
+                            <NavItem className="auth-buttons">
+                                <NavLink className="sign-in" href="/auth/login">Giriş Yap</NavLink>
+
+                                <NavLink className="sign-up" href="/auth/register">Kayıt Ol</NavLink>
+                            </NavItem>
+                            :
                             <NavItem>
                                 <NavLink className="my-account" href="#about">Hesabım</NavLink>
                             </NavItem>}
