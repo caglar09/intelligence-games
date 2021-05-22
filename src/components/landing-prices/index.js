@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectFlip, EffectCoverflow, EffectCube } from 'swiper';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, ListGroup, ListGroupItem } from 'reactstrap';
+import { Container, ListGroup } from 'reactstrap';
 import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
 import LogoMor from '../../assets/images/intelligence-game-icon-mor.svg'
 

@@ -1,21 +1,9 @@
 import React from 'react'
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
-import { RiArrowLeftLine } from 'react-icons/ri'
-import LogoMor from '../../assets/images/intelligence-game-icon-mor.svg'
-
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 
 function AuthRegisterComponent() {
     return (
         <div className="login-form">
-            <div className="logo-container">
-                <img src={LogoMor} alt="intelligence games" className="logo" />
-                <h1>Intelligence Game</h1>
-                <p className="description">
-                    Aşağıdaki alanları doldurarak hızlıca hesabınızı oluşturabilirsiniz.
-                </p>
-                <a href="/auth/login" className="left-top-button"><RiArrowLeftLine /> &nbsp; Giriş Yap</a>
-            </div>
-
             <Form>
                 <FormGroup>
                     <Label for="name">Ad Soyad </Label>

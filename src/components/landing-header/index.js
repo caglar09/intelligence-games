@@ -1,4 +1,4 @@
-import React, { useEffect, useLayoutEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     Collapse,
     Navbar,
@@ -7,12 +7,12 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Container    
+    Container
 } from 'reactstrap';
 import $ from 'jquery'
 
-import Logo from '../../assets/images/intelligence-game.svg'
 import LogoMor from '../../assets/images/intelligence-game-icon-mor.svg'
+import { Enums } from '../../assets/data/enums';
 
 
 
@@ -68,9 +68,9 @@ const LandingPageHeader = (props) => {
 
                         {!isSigned ?
                             <NavItem className="auth-buttons">
-                                <NavLink className="sign-in" href="/auth/login">Giriş Yap</NavLink>
+                                <NavLink className="sign-in" href={`/auth/${Enums.AuthScreenViewModes.Login}`}>Giriş Yap</NavLink>
 
-                                <NavLink className="sign-up" href="/auth/register">Kayıt Ol</NavLink>
+                                <NavLink className="sign-up" href={`/auth/${Enums.AuthScreenViewModes.Register}`}>Kayıt Ol</NavLink>
                             </NavItem>
                             :
                             <NavItem>

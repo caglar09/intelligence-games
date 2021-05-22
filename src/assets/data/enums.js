@@ -1,7 +1,8 @@
 const Enums = {
     AuthScreenViewModes: {
-        "Login": "LoginScreen",
-        "Register": "RegisterScreen"
+        "Login": "login",
+        "Register": "register",
+        "Forgot": "forgot-password"
     }
 }
 

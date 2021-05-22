@@ -5,6 +5,7 @@ $white-color: #fff;
 $white-color-opacity8: rgba(255, 255, 255, 0.8);
 $black-color07: rgba(0, 0, 0, 0.7);
 $bg-gray-color: #f5f5f8;
+$secondary-color: #3f3d56;
 $color-animation-time: 0.3s;
 $padding-20: 20px;
 $border-radius-5: 5px;
@@ -41,6 +42,8 @@ body {
     font-weight: 400 !important;
     line-height: 1.5 !important;
 }
+
+// #region GLOBAL
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
@@ -97,6 +100,56 @@ img {
         display: none;
     }
 }
+
+.form-control {
+    height: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.09px;
+    color: #1e1e25;
+    border-radius: 0px;
+    box-shadow: 0 2px 6px 0 #e6e6e6;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    padding: 16px 20px;
+}
+
+.purple-button {
+    width: 100%;
+    background-color: $purple-color;
+    color: $white-color;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0;
+}
+
+.form-check-input {
+    border-radius: 0;
+}
+
+.section-content {
+    min-height: 50vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    &.bg-gray {
+        .section-title {
+            color: $purple-color;
+        }
+    }
+
+    .section-image {
+        max-height: 50vh;
+    }
+}
+
+// #endregion GLOBAL
 
 // #region landing-page navbar
 .navbar {
@@ -201,7 +254,8 @@ img {
         }
     }
 
-    .site-name {
+    .site-name,
+    .site-sub-name {
         @media screen and (max-width: 768px) and (min-width: 768px) {
             display: none;
         }
@@ -236,22 +290,6 @@ img {
     opacity: 1;
 }
 // #endregion landing page carousel
-
-.section-content {
-    min-height: 50vh;
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-    &.bg-gray {
-        .section-title {
-            color: $purple-color;
-        }
-    }
-
-    .section-image {
-        max-height: 50vh;
-    }
-}
 
 // #region landing-page #purpose
 #purpose {
@@ -455,33 +493,6 @@ img {
             }
         }
 
-        .form-control {
-            height: 50px;
-            font-size: 14px;
-            font-weight: 500;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: normal;
-            letter-spacing: -0.09px;
-            color: #1e1e25;
-            border-radius: 0px;
-            box-shadow: 0 2px 6px 0 #e6e6e6;
-            border: 1px solid #e6e6e6;
-            background-color: #fff;
-            padding: 16px 20px;
-        }
-
-        .purple-button {
-            width: 100%;
-            background-color: $purple-color;
-            color: $white-color;
-            height: 50px;
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-
         .right-top-button {
             position: absolute;
             top: 50px;
@@ -534,3 +545,158 @@ img {
 }
 
 // #endregion auth-screen
+
+// #region app-screen
+.app {
+    .navbar {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background-color: #1e1e25 !important;
+
+        .navbar-brand {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-right: 20px;
+            .navbar-img {
+                width: 56px;
+                margin-right: 10px;
+            }
+            .site-sub-name {
+                margin-top: -5px;
+            }
+            .site-name {
+                color: #fff !important;
+            }
+        }
+        .nav-link {
+            color: $white-color !important;
+        }
+
+        .user-dropdown {
+            .custom-dropdwon-toggle {
+                border: none;
+                background-color: transparent !important;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                &::after {
+                    content: none !important;
+                }
+            }
+            .dropdown-menu {
+                width: 320px;
+                border-radius: 0;
+
+                .dropdown-item {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .dropdown-item-icon {
+                        margin-right: 10px;
+                    }
+                }
+
+                .user-name {
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                .user-email {
+                    font-size: 14px;
+                    color: #8f8b9f;
+                }
+
+                &::after {
+                    position: absolute;
+                    display: inline-block;
+                    margin-right: 0.255em;
+                    content: "";
+                    border-top: 1em solid transparent;
+                    border-left: 1em solid;
+                    border-bottom: 1em solid transparent;
+                    color: white;
+                    right: -1.2em;
+                    top: 0.8em;
+                }
+
+                @media screen and (max-width: 425px) {
+                    width: 280px;
+
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+    }
+    .avatar {
+        vertical-align: middle;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .card-menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .card-menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid transparent;
+            padding: 20px 40px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: $secondary-color;
+            color: $white-color;
+
+            &:hover {
+                border: 2px solid $purple-dark-color;
+                transition: border 0.4s ease-in-out;
+            }
+
+            .card-menu-title {
+                margin-top: 10px;
+                font-weight: 600;
+                letter-spacing: 0.3px;
+            }
+            @media screen and (min-width: 426px) {
+                + .card-menu {
+                    margin-left: 20px;
+                }
+            }
+
+            @media screen and (max-width: 424px) {
+                + .card-menu {
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+
+    .section-content {
+        min-height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .game-card-container {
+        .game-card {
+            padding: 20px;
+            margin: 5px;
+            border: 1px solid $bg-gray-color;
+            
+            .game-title {
+                font-size: 18px;
+            }
+        }
+    }
+}
+// #endregion app-screen
