@@ -1,80 +1,92 @@
 [
     {
+        "id": 1,
         "name": "TEK YÖN",
-        "image": "https://www.kirtasiyekulubu.com/images/thumbnails/550/450/detailed/139/8681049053336-01.jpg",
-        "description": ""
+        "image": "https://n11scdn4.akamaized.net/a1/1024/kitap-muzik-film-oyun/egitici-oyunlar/redka-tek-yon-zeka-mantik-ve-strateji-oyunu__0285012987281664.jpeg",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 2,
         "name": "SUDOKU",
         "image": "https://www.kirtasiyekulubu.com/images/thumbnails/550/450/detailed/147/9786052520376-01.jpg",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 3,
         "name": "KAKURO",
         "image": "http://3.bp.blogspot.com/-6dGicgs9B1c/UIQEwoLjoNI/AAAAAAAAARk/8kaFXIIATag/s1600/519fa506ce_29517746_o2.gif",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 4,
         "name": "Çadırlar",
         "image": "https://www.puzzle-tents.com/art/og/puzzle-tents.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 5,
         "name": "AMİRAL BATTI",
         "image": "https://docplayer.biz.tr/docs-images/26/7159651/images/17-0.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 6,
         "name": "BORULAR",
         "image": "https://tr.puzzle-pipes.com/art/og/puzzle-pipes.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 7,
         "name": "SHİKAKU",
         "image": "https://tr.puzzle-shikaku.com/art/og/puzzle-shikaku.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 8,
         "name": "KÖPRÜLER",
         "image": "https://tr.puzzle-bridges.com/art/og/puzzle-bridges.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 9,
         "name": "Yıldız Savaşı",
         "image": "https://www.anypuzzle.com/puzzles/logic/Star%20Battle/Solution%20Star%20battle.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 10,
         "name": "AQUARİUM",
         "image": "https://www.puzzle-aquarium.com/art/og/puzzle-aquarium.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 11,
         "name": "TAPA",
         "image": "https://tr.puzzle-tapa.com/art/og/puzzle-tapa.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 12,
         "name": "SLİTHER LİNK",
         "image": "https://www.puzzle-loop.com/art/og/puzzle-loop.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 13,
         "name": "NONOGRAMS",
         "image": "https://www.puzzle-nonograms.com/art/og/puzzle-nonograms.png",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 14,
         "name": "DOKUZ TAŞ",
         "image": "https://blog.ofix.com/wp-content/uploads/2019/05/9_tas_oyunu_ofix_blog.jpg",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     },
     {
+        "id": 15,
         "name": "Tavşan ve Tazılar",
         "image": "http://oyunkurali.com/images/tavsanvetazi2/TavsanveTazi2_thumb.jpeg",
-        "description": ""
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
     }
-    
-
-    
 ]

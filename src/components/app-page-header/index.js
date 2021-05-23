@@ -40,23 +40,23 @@ function AppPageHeader() {
                         <NavLink href="/app">Anasayfa</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="/app/games">Oyun Listesi</NavLink>
+                        <NavLink href="/app/games">Oyunlar</NavLink>
                     </NavItem>
                 </Nav>
                 <div>
                     <Dropdown direction={isMobile ? "down" : "left"} isOpen={dropdownOpen} toggle={dropdownToggle} className="user-dropdown">
                         <DropdownToggle className="custom-dropdwon-toggle">
-                            <img src={avatar1} alt={"user"} className="avatar" />
+                            <img src={"https://secure.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"} alt={"user"} className="avatar" />
                         </DropdownToggle>
                         <DropdownMenu >
                             <div className="d-flex flex-column align-items-center justify-content-center my-4">
-                                <img src={avatar1} alt={"user"} className="avatar" />
+                                <img src={"https://secure.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"} alt={"user"} className="avatar" />
                                 <span className="user-name">Çağlar YILDIRIM</span>
                                 <span className="user-email">test@test.com</span>
                             </div>
                             <DropdownItem divider />
                             <DropdownItem><FiUser size={20} className="dropdown-item-icon" /> <span>Hesabım</span></DropdownItem>
-                            <DropdownItem><FiLogOut size={20} className="dropdown-item-icon" /> <span>Çıkış Yap</span></DropdownItem>
+                            <DropdownItem onClick={() => document.location.href = "/"}><FiLogOut size={20} className="dropdown-item-icon" /> <span>Çıkış Yap</span></DropdownItem>
                         </DropdownMenu>
                     </Dropdown>
                 </div>

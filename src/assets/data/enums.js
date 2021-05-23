@@ -3,6 +3,10 @@ const Enums = {
         "Login": "login",
         "Register": "register",
         "Forgot": "forgot-password"
+    },
+    GameModes: {
+        "Play": "Oyna",
+        "Watch": "İzle"
     }
 }
 
