@@ -20,7 +20,7 @@ function AuthRegisterComponent() {
                     <Input type="password" name="password" id="password" placeholder="Şifrenizi giriniz " />
                 </FormGroup>
 
-                <a href="#" className="btn purple-button">Kayıt Ol</a>
+                <a href="/auth/login" className="btn purple-button">Kayıt Ol</a>
             </Form>
         </div>
     )
