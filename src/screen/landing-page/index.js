@@ -66,7 +66,13 @@ function LandingPage() {
                     <div className="col-md-5 d-flex flex-column justify-content-center order-0 ">
                         <h1 className="text-center fw-bold section-title">Fiyatlandırma</h1>
                         <p className="text-center mt-4 fs-18">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Bazen yeni bilgiler edinmek, mesleki becerilerimizi geliştirmek
+                            bazen de kişisel gelişimimizi tamamlamak için eğitimlere katılırız.
+                            Değerlendirme sonunda başarılı olamayan öğrenciyi yeniden eğitime alır ve ikinci değerlendirme için davet eder.
+                            Ancak sonuçların doğruluğu ve güvenilirliği için önceden belirlenen standartlara göre yapılması şarttır.
+                            Başarılı olduğunuz eğitimi bir belgeyle kanıtlayın.
+                            Başarınızı kanıtlamak için bireyin katıldığı, kazandığı içerikleri isterse belge
+                            ile eposta yoluyla alın başarınızı kanıtlayın.
                         </p>
                     </div>
                     <div className="col-md-7 order-1" >

@@ -15,7 +15,7 @@ function LandingFooter() {
                     <div className="col-sm-10 col-md-6">
                         <ListGroup type="unstyled">
                             <li className="list-group-item">
-                                <a href="#">İletişim</a>
+                                <a href="#contact">İletişim</a>
                             </li>
                             <li className="list-group-item">
                                 <a href="#"> Veri Gizliliği</a>
@@ -32,10 +32,10 @@ function LandingFooter() {
                                 <a href="#"><FaFacebookSquare /> Facebook'da biz</a>
                             </li>
                             <li className="list-group-item">
-                                <a href="#"> <FaInstagramSquare /> Instagram'da biz</a>
+                                <a href="https://www.instagram.com/gamesintelligence" target="_blank"> <FaInstagramSquare /> Instagram'da biz</a>
                             </li>
                             <li className="list-group-item">
-                                <a href="#"><FaTwitterSquare /> Twitter'da biz</a>
+                                <a href="https://twitter.com/IntelligenceGa9?s=09" target="_blank"><FaTwitterSquare /> Twitter'da biz</a>
                             </li>
                         </ListGroup>
                     </div>
