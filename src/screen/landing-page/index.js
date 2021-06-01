@@ -25,7 +25,10 @@ function LandingPage() {
                     <div className="col-md-5 d-flex flex-column justify-content-center order-0 ">
                         <h1 className="text-center fw-bold section-title">Amacımız</h1>
                         <p className="text-center mt-4 fs-18">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Öğrenirken eğlenmeyi hedefleyen projemiz size aynı zamanda analitik düşünme becerilerini geliştirmeyi,
+                            konsantrasyonu yeteneğinizi artırmayı, öngörü becerisini daha çok düşünmeyi, çözüm üretme daha pratik olmayı
+                            Çok yönlü düşünme ve çoklu zekanın daha etkin kullanımını bunu yanı sıra el-göz koordinasyonunu
+                            geliştirmeyi amaçlarımız arasında öncelik verdik. Pandemi sürecinde değişen bir çok şeyin yanında eğitimdeki fırsat eşitsizliğinden dolayı bu fırsat yaratmayı da hedefliyoruz.
                         </p>
                     </div>
                     <div className="col-md-7 order-1" >
@@ -44,7 +47,14 @@ function LandingPage() {
                     <div className="col-md-5 d-flex flex-column justify-content-center order-1 ">
                         <h1 className="text-center fw-bold section-title">Hakkımızda</h1>
                         <p className="text-center mt-4 fs-18">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                            Dünyada yaşanan pandemi sorunları nedeniyle öğrencilerin eğitim
+                            materyallerine erişme sıkıntısı doğuruyor ve bu da eğitim açısından büyük bir
+                            eksiklik olarak gözlere çarpmakta bizim projenin amacı öğrencilerin materyalleri
+                            kullanımını en aza indirmek ve öğrenmeyi eğlenceli ve kalıcı hale getirmek, web
+                            sitemizin öğrenciler arasında rekabet ortamı oluşturmak ve hatta öğrenciler
+                            arasında turnuva düzenleme ve benzeri gibi kolaylıklar sağlamak ve bunları
+                            yaparken özellikle materyal üretimi için kullanılan ağaç plastik ve benzeri
+                            maddelerin kullanımını en aza indirmek
                         </p>
                     </div>
                 </div>
