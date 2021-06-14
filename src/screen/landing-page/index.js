@@ -69,7 +69,7 @@ function LandingPage() {
                         <div className=" d-flex flex-row justify-content-between">
                             <div className="image-area">
                                 <div className="img-wrapper">
-                                    <img src={Eda} alt="Caglar YILDIRIM" />
+                                    <img src={Eda} alt="Eda ILDIR" />
                                     <h2 className="d-flex flex-column justify-content-center">Eda ILDIR
                                     <small style={{ fontSize: 13 }}>Proje Yöneticisi</small>
                                     </h2>
@@ -83,7 +83,7 @@ function LandingPage() {
                             </div>
                             <div className="image-area">
                                 <div className="img-wrapper">
-                                    <img src={Ramazan} alt="Caglar YILDIRIM" />
+                                    <img src={Ramazan} alt="Ramazan TORI" />
                                     <h2 className="d-flex flex-column justify-content-center">Ramazan TORI
                                     <small style={{ fontSize: 13 }}>Konu Alan Uzmanı</small>
                                     </h2>
@@ -97,7 +97,7 @@ function LandingPage() {
                             </div>
                             <div className="image-area">
                                 <div className="img-wrapper">
-                                    <img src={Batuhan} alt="Caglar YILDIRIM" />
+                                    <img src={Batuhan} alt="Batuhan KORUYAN" />
                                     <h2 className="d-flex flex-column justify-content-center">Batuhan KORUYAN
                                     <small style={{ fontSize: 13 }}>Grafik Tasarımcısı</small>
                                     </h2>
