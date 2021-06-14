@@ -52,10 +52,13 @@ const LandingPageHeader = (props) => {
                             <NavLink href="#purpose">Amacımız</NavLink>
                         </NavItem>
                         <NavItem>
+                            <NavLink href="#pricing">Fiyatlandırma</NavLink>
+                        </NavItem>
+                        <NavItem>
                             <NavLink href="#about">Hakkımızda</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#pricing">Fiyatlandırma</NavLink>
+                            <NavLink href="#team">Ekibimiz</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="#contact">İletişim</NavLink>

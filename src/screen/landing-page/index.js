@@ -1,16 +1,21 @@
 import React, { } from 'react'
 import { Container, Button, Form, FormGroup, Label, Input, Row, Col } from 'reactstrap';
-import { FaRegCopyright } from 'react-icons/fa'
+import { FaRegCopyright, FaFacebookSquare, FaGithub, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 import LandingPageHeader from '../../components/landing-header';
 import LangingPageCarousel from '../../components/landing-page-carousel';
+import LandingFooter from '../../components/landing-footer';
+import LandingPrices from '../../components/landing-prices';
 
 import AboutImage from '../../assets/images/undraw_about_me_wa29.svg'
 import ContactImage from '../../assets/images/undraw_contact_us_15o2.svg'
 import PricingImage from '../../assets/images/undraw_personal_finance_tqcd.svg'
 import PurposeImage from '../../assets/images/undraw_functions_purpose_egi3.svg'
-import LandingFooter from '../../components/landing-footer';
-import LandingPrices from '../../components/landing-prices';
+
+import Caglar from '../../assets/images/team/caglar.png'
+import Batuhan from '../../assets/images/team/batuhan.jpg'
+import Eda from '../../assets/images/team/eda.jpeg'
+import Ramazan from '../../assets/images/team/ramazan.jpeg'
 
 function LandingPage() {
 
@@ -56,6 +61,69 @@ function LandingPage() {
                             yaparken özellikle materyal üretimi için kullanılan ağaç plastik ve benzeri
                             maddelerin kullanımını en aza indirmek
                         </p>
+                    </div>
+                </div>
+                <div className="row mt-5" id="team">
+                    <div className="col-md-12" >
+                        <h1 className="text-center fw-bold section-title mb-5">Ekibimiz</h1>
+                        <div className=" d-flex flex-row justify-content-between">
+                            <div className="image-area">
+                                <div className="img-wrapper">
+                                    <img src={Eda} alt="Caglar YILDIRIM" />
+                                    <h2 className="d-flex flex-column justify-content-center">Eda ILDIR
+                                    <small style={{ fontSize: 13 }}>Proje Yöneticisi</small>
+                                    </h2>
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/"><FaGithub /></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com//"><FaInstagram /></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a target="_blank" href="https://www.youtube.com/"><FaLinkedin /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="image-area">
+                                <div className="img-wrapper">
+                                    <img src={Ramazan} alt="Caglar YILDIRIM" />
+                                    <h2 className="d-flex flex-column justify-content-center">Ramazan TORI
+                                    <small style={{ fontSize: 13 }}>Konu Alan Uzmanı</small>
+                                    </h2>
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/"><FaGithub /></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com//"><FaInstagram /></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a target="_blank" href="https://www.youtube.com/"><FaLinkedin /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="image-area">
+                                <div className="img-wrapper">
+                                    <img src={Batuhan} alt="Caglar YILDIRIM" />
+                                    <h2 className="d-flex flex-column justify-content-center">Batuhan KORUYAN
+                                    <small style={{ fontSize: 13 }}>Grafik Tasarımcısı</small>
+                                    </h2>
+                                    <ul>
+                                        <li><a target="_blank" href="https://github.com/"><FaGithub /></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com//"><FaInstagram /></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a target="_blank" href="https://www.youtube.com/"><FaLinkedin /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="image-area">
+                                <div className="img-wrapper">
+                                    <img src={Caglar} alt="Caglar YILDIRIM" />
+                                    <h2 className="d-flex flex-column justify-content-center">Çağlar YILDIRIM
+                                    <small style={{ fontSize: 13 }}>Yazılım Geliştiricisi</small>
+                                    </h2>
+                                    <ul>
+                                        <li><a href="https://github.com/"><FaGithub /></a></li>
+                                        <li><a href="https://www.instagram.com//"><FaInstagram /></a></li>
+                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
+                                        <li><a href="https://www.youtube.com/"><FaLinkedin /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Container>

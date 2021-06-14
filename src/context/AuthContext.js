@@ -4,6 +4,7 @@ const initialState = {
     initialized: false,
     isLogged: false,
     user: {
+        id: 118,
         username: "root",
         name: "Çağlar",
         lastname: "YILDIRIM",
@@ -17,7 +18,7 @@ const initialState = {
     }
 }
 
-const authReducer=(state,action)=>{
+const authReducer = (state, action) => {
 
 }
 

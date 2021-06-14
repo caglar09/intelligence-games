@@ -5,19 +5,35 @@ import {
 } from 'reactstrap';
 import { GoPlay } from 'react-icons/go'
 import { BsDot, BsFillCollectionPlayFill, BsInfoCircleFill } from 'react-icons/bs'
+import { GoPrimitiveDot } from 'react-icons/go'
+import { GiGamepad } from 'react-icons/gi'
 
 import AppPageHeader from '../../components/app-page-header';
 
 import gameDatas from '../../assets/data/games-data.json'
 import AppGameModal from '../../components/app-game-modal';
 import { Enums } from '../../assets/data/enums';
+import AppMessagesModal from '../../components/app-messages-component';
+import AppGroupModal from '../../components/app-groups-component';
+import AppFriendsModal from '../../components/app-friends-component';
+import AppGameInfoModal from '../../components/app-info-component';
 
 
 function AppGames() {
     const [modal, setModal] = useState(false);
-    const [selectedGame, setSelectedGame] = useState(null)
+    const [selectedGame, setSelectedGame] = useState(null);
+    const [isMessagesShowModal, setMessagesShowModal] = useState(false);
+    const [isGroupsShowModal, setGroupsShowModal] = useState(false);
+    const [isFriendsShowModal, setFriendsShowModal] = useState(false);
+    const [isGameInfoShowModal, setGameInfoShowModal] = useState(false);
+    const [gameData, setGameData] = useState({});
     const [mode, setMode] = useState(Enums.GameModes.Play);
+
     const toggle = () => setModal(!modal);
+    const showMessagesModalToggle = () => setMessagesShowModal(!isMessagesShowModal);
+    const showGroupsModalToggle = () => setGroupsShowModal(!isGroupsShowModal);
+    const showFriendsModalToggle = () => setFriendsShowModal(!isFriendsShowModal);
+    const showGameInfoModalToggle = () => setGameInfoShowModal(!isGameInfoShowModal);
 
     const handlePlayGame = (game, _mode) => {
         setSelectedGame(game)
@@ -27,10 +43,11 @@ function AppGames() {
 
     return (
         <Container fluid className="px-0 app">
-            <AppPageHeader />
+            <AppPageHeader toggleMessageModal={showMessagesModalToggle} toggleGroupModal={showGroupsModalToggle} toggleFriendsModal={showFriendsModalToggle} />
             <section className="container-fluid bg-gray">
                 <div className="container section-content " style={{ minHeight: "10vh" }}>
-                    <h1>Zeka Oyunları</h1>
+                    <div className="d-flex flex-row align-items-center"><GiGamepad size={64} className="color-purple" /> <h1 className="ml-3 mb-0">Zeka Oyunları</h1></div>
+                    <h6>Toplam {gameDatas.length.toString()} oyun, <b>2873</b> oyuncu sizi bekliyor. </h6>
                 </div>
             </section>
             <section className="container-fluid">
@@ -52,14 +69,17 @@ function AppGames() {
                                         <CardBody className="game-content">
                                             <CardTitle tag="h5" className="game-title d-flex justify-content-between algin-items-center">
                                                 {game.name}
-                                                <a href="" className="color-purple"> <BsInfoCircleFill /></a>
+                                                <a href="#" onClick={() => {
+                                                    setGameData(game)
+                                                    showGameInfoModalToggle()
+                                                }} className="color-purple"> <BsInfoCircleFill /></a>
                                             </CardTitle>
                                             <CardText className="game-description">
                                                 <p>{game.description}</p>
 
                                             </CardText>
 
-                                            <BsDot color="green" fontSize={48} />({Math.round(Math.random() * 999)}) Online Oyuncu
+                                            <GoPrimitiveDot color="green" fontSize={24} />({Math.round(Math.random() * 999)}) Online Oyuncu
                                         </CardBody>
                                     </Col>
                                 </Row>
@@ -69,6 +89,10 @@ function AppGames() {
                 </div>
             </section>
             <AppGameModal isOpen={modal} toggle={toggle} game={selectedGame} mode={mode} />
+            <AppMessagesModal isOpen={isMessagesShowModal} toggle={showMessagesModalToggle} />
+            <AppGroupModal isOpen={isGroupsShowModal} toggle={showGroupsModalToggle} />
+            <AppFriendsModal isOpen={isFriendsShowModal} toggle={showFriendsModalToggle} />
+            <AppGameInfoModal isOpen={isGameInfoShowModal} toggle={showGameInfoModalToggle} data={gameData} />
         </Container>
     )
 }

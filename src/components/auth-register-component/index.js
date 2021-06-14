@@ -19,7 +19,10 @@ function AuthRegisterComponent() {
                     <Label for="password">Şifre</Label>
                     <Input type="password" name="password" id="password" placeholder="Şifrenizi giriniz " />
                 </FormGroup>
-
+                <FormGroup>
+                    <Label for="classCode">Sınıf Kodu (İsteğe Bağlı)</Label>
+                    <Input type="text" name="classCode" id="classCode" placeholder="Varsa Sınıf katılım kodu (İsteğe bağlı) " />
+                </FormGroup>
                 <a href="/auth/login" className="btn purple-button">Kayıt Ol</a>
             </Form>
         </div>

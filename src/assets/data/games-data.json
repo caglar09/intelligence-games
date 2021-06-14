@@ -3,90 +3,91 @@
         "id": 1,
         "name": "TEK YÖN",
         "image": "https://n11scdn4.akamaized.net/a1/1024/kitap-muzik-film-oyun/egitici-oyunlar/redka-tek-yon-zeka-mantik-ve-strateji-oyunu__0285012987281664.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Sokağa çıkılır. Sağ ya da sol tercihi yapılır ve o andan itibaren sadece seçilen yönde dönüşler yapılarak yürünmeye devam edilir. Mesela sol seçildiyse, her köşe başında ya düz devam edilecek ya da sola dönülecektir. Seçilen yönde de olsa U-dönüş yapmak kural ihlalidir.Zor durumlar için bir kereye mahsus bir U-dönüş hakkı saklı tutulabilir. Anlaşıldığı üzere, oyun muhtelif çeşitlendirmelere açıktır. Söz gelimi belli sayıda sağa dön, sola dön, düze git, vb. manevra kartları hazırlayıp, bunlar arasından rastgele seçilecek kartlar takip edilerek oynanabilir. Ne kadar sürdürüleceği ve nereye varılacağı belli değildir, fakat daha önce hiç gidilmemiş ve/veya garip bir yere gelinene kadar devam edilmesi makbuldür.Maksat kural dışına çıkmadan yeni yollardan yeni yerlere varmaktır. Meçhul menzil oyuna dahildir."
     },
     {
         "id": 2,
         "name": "SUDOKU",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg/1200px-Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Sudoku oyunu 9 hücreden oluşan 9 karenin 3 boyut diyebileceğimiz düzlemde 1’den 9’a kadar sayıların tek bir defa kullanılması şartı ile dizilmesi gerekiyor. Sudoku oyununda her satır ve sütunda 1'den 9'a kadar olan sayılar sadece bir kez kullanılarak dizilmesi gerekir. Aynı zaman da sudoku oyununda 9 hücreden oluşan her bir kare içinde 1'den 9'a kadar sayılar bir kez kullanılarak dizilmesi gerekir."
     },
     {
         "id": 3,
         "name": "KAKURO",
         "image": "http://3.bp.blogspot.com/-6dGicgs9B1c/UIQEwoLjoNI/AAAAAAAAARk/8kaFXIIATag/s1600/519fa506ce_29517746_o2.gif",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description":"Karelerin köşegenlerinde bulunan sayılar, o köşegenin doğrultusunda bulunan karelere yazılacak rakamların toplamını verir. Köşegenin sağında (üstünde) bulunan sayı, sağındaki karelerin toplamına; köşegenin solunda (altında) bulunan sayı ise, o sayının altında bulunan karelerin toplamına eşit olmalıdır.Her satırda ve her sütunda rakamlar yalnızca birer kez kullanılmalıdır.Bir toplamı veren rakamlar birbirinden farklı olmalıdır."
     },
     {
         "id": 4,
-        "name": "Çadırlar",
-        "image": "https://www.puzzle-tents.com/art/og/puzzle-tents.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "name": "AMİRAL BATTI",
+        "image": "https://docplayer.biz.tr/docs-images/26/7159651/images/17-0.png",
+        "description": "Amiral battı, (Battleship) 2 kişilik düşünce ve strateji tabanlı bir kutu (masa) oyunudur. Her oyuncu kendi gemi filosunu diğer oyuncudan gizlediği, önceden yatay ve dikey koordinatların belli olduğu bir alanda (kâğıt veya plastik tabla üzerinde) oynanır. Oyuncular sırayla koordinat belirtip atış yaparak diğer oyuncunun gemilerinin yerlerini bulup batırmaya çalışırlar"
     },
     {
         "id": 5,
-        "name": "AMİRAL BATTI",
-        "image": "https://docplayer.biz.tr/docs-images/26/7159651/images/17-0.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "name": "Çadırlar",
+        "image": "https://www.puzzle-tents.com/art/og/puzzle-tents.png",
+        "description": " Her ağacı yatay veya dikey olarak bitişik bir çadırla eşleştirin. Bu 1'e 1 ilişki olmalıdır. Çadırlar çapraz da olsa birbirlerine asla değmez.Izgara dışındaki ipuçları, o sıra / sütundaki çadırların sayısını gösterir."
+  
     },
     {
         "id": 6,
         "name": "BORULAR",
         "image": "https://tr.puzzle-pipes.com/art/og/puzzle-pipes.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Amaç boruları döndürerek diğer karelerdeki borularla birleştirerek her borudan su geçecek şekilde birleştirmektir. Her bir borudan su geçmesi gerek."
     },
     {
         "id": 7,
         "name": "SHİKAKU",
         "image": "https://tr.puzzle-shikaku.com/art/og/puzzle-shikaku.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Karelerin içerisinde, farenin sol tuşuna basılı tutarak küçük bir çerçeve oluşturup bırakmak bir dikdörtgen oluşturmak için yeterlidir.Kırmızı işaretleme aracı ile kaldırmak istediğiniz çizgileri çevrelemelisiniz. Bu, farenin sağ tuşunu kullanarak gerçekleştirilir. "
     },
     {
         "id": 8,
         "name": "KÖPRÜLER",
         "image": "https://tr.puzzle-bridges.com/art/og/puzzle-bridges.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Kuralları basittir. Köprü, standart bir boyutu olmayan dikdörgen ızgara üzerinde oynanır. Hücreler 1'den 8'e kadar numaralardan oluşur; bunlar adalardır. Geriye kalan hücreler boştur. Amaç, adaları tek bir grup olacak şekilde birbirleri ile birleştirmektir. Köprüler aşağıdaki kriterli içermelidir : Bir ada ile başlamalı ve bitmelidir, düz bir bağlantı çizgisi; diğer köprü ve adaları kesmemelidir; dik olarak ilerleyebilir; 2 köprü en fazla bir ada çiftçi ile bağlanabilir; ve adalar arasındaki köprü sayısı, hücre üzerindeki sayı ile ilişkilidir.Bir adaya sol tuş ile tıklayın ve diğer adaya doğru fareyi sürükleyin. İki ada aydınladığı zaman fare tuşunu serbest bırakın." 
     },
     {
         "id": 9,
         "name": "Yıldız Savaşı",
         "image": "https://www.anypuzzle.com/puzzles/logic/Star%20Battle/Solution%20Star%20battle.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Oyun, boyutu ve yıldız sayısı değiştirilerek zorlaştırılabilir. Oyunun en önemli özelliği, bölge şekillerinin kullanılmasının gerekliliğidir.Oyun, diyagramdaki her satıra, sütuna ve kapalı alana yıldız yerleştirilerek oynanır.Yıldızlar birbirlerine değmemelidir.Eğer iki bölge 2 satırda yer alıyorsa toplam 2 adet yıldı olacağından o 2 satırda bulunan diğer hücrelere yıldız gelemez."
     },
     {
         "id": 10,
         "name": "AQUARİUM",
         "image": "https://www.puzzle-aquarium.com/art/og/puzzle-aquarium.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Akvaryum kuralları basittir: Bulmaca, 'akvaryumlar' adı verilen bloklara bölünmüş dikdörtgen bir ızgara üzerinde oynanır.Akvaryumları belirli bir seviyeye kadar suyla 'doldurmanız' veya boş bırakmanız gerekir.Her akvaryumdaki su seviyesi, tüm genişliği boyunca bir ve aynıdır.Izgara dışındaki sayılar, yatay ve dikey olarak doldurulmuş hücrelerin sayısını gösterir." 
     },
     {
         "id": 11,
         "name": "TAPA",
         "image": "https://tr.puzzle-tapa.com/art/og/puzzle-tapa.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Kurallar o kadar basit değil. :)Hücrelerden bazılarını tek bir poliomino oluşturacak şekilde siyah yapmanız gerekir (tüm siyahlar tek bir grupta dikey olarak bağlanmalıdır).2x2 siyah alanlara izin verilmez.İpuçları, komşu hücrelerdeki ardışık siyah blokların uzunluğunu gösterir.İpucunda tek bir sayı 1 siyah blok olduğu, 2 sayı 2 blok vb. anlamına gelir.Her 2 siyah blok arasında en az 1 beyaz hücre olmalıdır.Bloklar herhangi bir sırada görünebilir."
     },
     {
         "id": 12,
         "name": "SLİTHER LİNK",
         "image": "https://www.puzzle-loop.com/art/og/puzzle-loop.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Kurallar basit. Geçişler veya dallar olmadan tek bir döngü oluşturmak için noktalar arasına çizgiler çizmeniz gerekir. Rakamlar, onu çevreleyen kaç çizgiyi gösterir.Birleştirmek için noktalar arasında sol tıklayın. X ile işaretlemek için sağ tıklayın."
     },
     {
         "id": 13,
         "name": "NONOGRAMS",
         "image": "https://www.puzzle-nonograms.com/art/og/puzzle-nonograms.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
-    },
+        "description": "Kurallar basit.Siyahla doldurulması veya X ile işaretlenmesi gereken bir kareler ızgaranız var. Izgaranın her satırının yanında, o satırdaki siyah karelerin uzunlukları listelenir. Her sütunun üstünde, o sütundaki siyah karelerin uzunlukları listelenir. Amacınız tüm siyah kareleri bulmak.Siyah yapmak için bir kareye sol tıklayın. X ile işaretlemek için sağ tıklayın. Birden fazla kare işaretlemek için tıklayın ve sürükleyin."
+     },
     {
         "id": 14,
         "name": "DOKUZ TAŞ",
         "image": "https://blog.ofix.com/wp-content/uploads/2019/05/9_tas_oyunu_ofix_blog.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Dokuztaş oyunu 2 kişi ile oynanır.Oyuncular oyuna kura ile başlarlar.Kura sonunda kazanan oyuncu ilk taşı koyarak oyuna başlar. Sonra rakibi bir taş koyar. Her iki oyuncunun elindeki 9 taş bitinceye kadar sırası ile taşları oyun tahtası üzerine koyarlar. Bu esnada oyunculardan biri yatay ya da dikey olarak taşlarını üçlü yapmışsa (per) rakibinin bir taşını alır. Rakibin üçlü peri varsa üçlü bozulmaz. Üçlü olmayanlardan birini alır. Ancak üçlü perlerin dışında başka taş yoksa üçlüyü bozarak bir taş alır. Çapraz olarak yapılan üçlemeler taş yemek için geçerli değildir.Oyuncular ellerindeki 9 taşı da oyun alanına bırakmadan oyun alanındaki hiçbir taşı oynatamazlar. Yani hamle yapamazlar.Oyuncular dokundukları taşı oynamak zorundadırlar.Oyuncular yaptıkları üçlüleri ileri – geri yaparak rakibin taşını yiyebilirler.Oyun süresi en fazla 20 dakikadır. Bir oyuncu en az 3 dakika içinde hamle yapmak zorundadır.. 20 dakika sonunda oyun bitmemişse oyun tahtası üzerindeki taşlar sayılır. Tahta üzerinde taş sayısı fazla olan oyuncu maçı kazanır. Oyun tahtası üzerindeki taşlar eşitse oyun yeniden başlatılır. İlk taş alan oyuncu maçı kazanmış olur. Eğer taş yeme olayı gerçekleşmemiş ise 10 dakika sonunda kazanan kura ile belirlenir.Oyun tahtasında üçtaşı kalan oyuncu taşlarını istediği gibi hareket ettirebilir. Yani en yakınındaki nokta ile en uzağındaki nokta arasında istediği bir noktaya taşını koyabilir. Oyun normal devam ediyorsa oyunu 2 taşı kalan oyuncu kaybetmiş sayılır.Hamle yapamayacak şekilde taşları sıkışmış olan oyuncu oyunu kaybeder."
     },
     {
         "id": 15,
         "name": "Tavşan ve Tazılar",
         "image": "http://oyunkurali.com/images/tavsanvetazi2/TavsanveTazi2_thumb.jpeg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. "
+        "description": "Tavşanlar çapraz hareket edemez, sağa sola hareket eder. Tavşanlar herhangi bir taşın üzerinden atlamamalıdır.Tazılar her yöne hareket edebilir. Tazılar, taşların üzerinden atlayarak tavşanları saf dışı edebilir. Tazılardan birinin tavşan yeme şansı varsa mutlaka yemelidir.Oyuncular beyaz veya siyah taşlardan hangileriyle oynayacaklarına karar verir. Beyaz taşlar tavşan, siyah taşlar tazı olarak adlandırılır. (Görselde maviler tavşan, siyahlar tazıdır.) Taşlar, oyun tablasına aşağıdaki gibi dizilir"
     }
 ]

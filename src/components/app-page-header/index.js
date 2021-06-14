@@ -6,7 +6,7 @@ import avatar1 from '../../assets/images/avatar1';
 import LogoMor from '../../assets/images/intelligence-game-icon-mor.svg'
 import LogoCircleMor from '../../assets/images/logo-mor100x.svg'
 
-function AppPageHeader() {
+function AppPageHeader({ toggleMessageModal=()=>{}, toggleGroupModal=()=>{}, toggleFriendsModal=()=>{} }) {
     const [isOpen, setIsOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(false);
     const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -42,15 +42,24 @@ function AppPageHeader() {
                     <NavItem>
                         <NavLink href="/app/games">Oyunlar</NavLink>
                     </NavItem>
+                    <NavItem>
+                        <NavLink href="#" onClick={() => toggleGroupModal()}>Gruplarım</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#" onClick={() => toggleFriendsModal()}>Arkadaşlarım</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink href="#" onClick={() => toggleMessageModal()}>Mesajlarım</NavLink>
+                    </NavItem>
                 </Nav>
                 <div>
                     <Dropdown direction={isMobile ? "down" : "left"} isOpen={dropdownOpen} toggle={dropdownToggle} className="user-dropdown">
                         <DropdownToggle className="custom-dropdwon-toggle">
-                            <img src={"https://secure.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"} alt={"user"} className="avatar" />
+                            <img src={"https://pbs.twimg.com/media/EYVxlOSXsAExOpX?format=jpg&name=small"} alt={"user"} className="avatar" />
                         </DropdownToggle>
                         <DropdownMenu >
                             <div className="d-flex flex-column align-items-center justify-content-center my-4">
-                                <img src={"https://secure.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"} alt={"user"} className="avatar" />
+                                <img src={"https://pbs.twimg.com/media/EYVxlOSXsAExOpX?format=jpg&name=small"} alt={"user"} className="avatar" />
                                 <span className="user-name">Çağlar YILDIRIM</span>
                                 <span className="user-email">test@test.com</span>
                             </div>
