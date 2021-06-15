@@ -66,7 +66,7 @@ function LandingPage() {
                 <div className="row mt-5" id="team">
                     <div className="col-md-12" >
                         <h1 className="text-center fw-bold section-title mb-5">Ekibimiz</h1>
-                        <div className=" d-flex flex-row justify-content-between">
+                        <div className=" d-flex flex-row justify-content-between flex-wrap">
                             <div className="image-area">
                                 <div className="img-wrapper">
                                     <img src={Eda} alt="Eda ILDIR" />
