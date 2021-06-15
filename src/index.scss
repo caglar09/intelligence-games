@@ -972,4 +972,12 @@ img {
     }
 }
 
+.team-members{
+    flex-direction: row;
+    @media screen and (max-width:475px) {
+        flex-direction: column;
+    }
+}
+
+
 // #endregion app-screen
